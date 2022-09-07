@@ -1,0 +1,545 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar-con {
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+
+    width: 100%;
+    padding: 0 10px;
+}
+
+.nav-left {
+    display: flex;
+    flex: 1;
+    justify-content: left;
+    align-items: center;
+}
+
+.nav-left img {
+    cursor: pointer;
+    padding: 8px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-left p {
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 15px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.nav-left p:hover {
+
+    height: 60px;
+    background-color: #4CAF50;
+    color: white;
+}
+
+.nav-right {
+    align-items: center;
+    flex: 1;
+    justify-content: right;
+    display: flex;
+}
+
+.nav-right img {
+    cursor: pointer;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-right p {
+    cursor: pointer;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    width: 100px;
+    height: 33px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.nav-right .pink-button {
+    background-color: #FFC0C7;
+}
+
+.nav-right .green-button {
+    background-color: #327f34;
+}
+
+.nav-right p:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.bosh-con {
+    height: 500px;
+    background-color: #282A35;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+
+
+.mini-con {
+
+    font-size: 25px;
+
+}
+
+
+.bosh-con h4:hover {
+    color: #327f34;
+}
+
+.bosh-con h3 {
+    color: #ffb3bb;
+    margin-top: 15px;
+
+}
+
+.example {
+    display: flex;
+    justify-content: center;
+    
+    height: 50px;
+        
+
+}
+
+.exam-img {
+    cursor: pointer;
+
+}
+
+.bosh-con h4 {
+    cursor: pointer;
+}
+
+
+
+.gray-container {
+
+    width: 100%;
+    height: 500px;
+    background-color: #D9EEE1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grayleft-con {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.grayleft-con h1 {
+    font-size: 60px;
+}
+
+.grayleft-con p {
+    font-size: 25px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    font-size: larger;
+    font-weight: 400;
+    width: 200px;
+    height: 30px;
+    border-radius: 25px;
+    border: none;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.green-button {
+    background-color: #4CAF50;
+}
+
+.yellow-button {
+    background-color: #FFF4A3;
+    color: black;
+}
+
+.black-button {
+    background-color: #282A35;
+}
+
+.pink-button {
+    background-color: #ffb3bb;
+    color: black;
+}
+
+.white-button {
+    background-color: white;
+    color: #282A35;
+}
+
+.grayright-con {
+
+    flex: 1;
+
+}
+
+.image {
+    width: 600px;
+    height: 350px;
+    box-shadow: 5px 5px 8px 3px #888;
+    border-radius: 5px;
+
+}
+
+.Css-container {
+
+    width: 100%;
+    height: 500px;
+    background-color: #FFF4A3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.java-container {
+
+    width: 100%;
+    height: 500px;
+    background-color: #282A35;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.java-container h1 {
+    color: white;
+}
+
+.java-container p {
+    color: white;
+}
+
+.phyton-container {
+
+    width: 100%;
+    height: 500px;
+    background-color: #F3ECEA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.SQL-container {
+
+    width: 100%;
+    height: 500px;
+    background-color: #96D4D4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.b-con {
+    display: flex;
+
+    background-color: #282A35;
+    width: 100%;
+
+    text-align: center;
+    padding: 0% 200px;
+
+}
+
+
+.bleft-con {
+    height: 300px;
+    margin-right: 50px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    background-color: #ffb3bb;
+    flex: 1;
+    border-radius: 5px;
+
+
+
+}
+
+.bright-con {
+
+    font-size: larger;
+    height: 300px;
+    margin-left: 75px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #FFF4A3;
+    flex: 1;
+
+}
+
+.b-button {
+    background-color: #282A35;
+
+}
+
+.c-con {
+
+    display: flex;
+    background-color: #282A35;
+    width: 100%;
+    text-align: center;
+    padding: 0% 200px;
+
+}
+
+
+.cleft-con {
+    height: 300px;
+    margin-right: 50px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    background-color: #F3ECEA;
+    flex: 1;
+    border-radius: 5px;
+
+}
+
+.cright-con {
+
+    font-size: larger;
+    height: 300px;
+    margin-left: 75px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #D9EEE1;
+    flex: 1;
+
+}
+
+.c-button {
+    background-color: #282A35;
+
+}
+
+.d-con {
+
+    display: flex;
+    background-color: #282A35;
+    width: 100%;
+    text-align: center;
+    padding: 0% 200px;
+
+}
+
+
+.dleft-con {
+    height: 300px;
+    margin-right: 50px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    background-color: #96D4D4;
+    flex: 1;
+    border-radius: 5px;
+
+}
+
+.dright-con {
+
+    font-size: larger;
+    height: 300px;
+    margin-left: 75px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #F3ECEA;
+    flex: 1;
+
+}
+
+.d-button {
+    background-color: #282A35;
+
+}
+
+.e-con {
+    display: flex;
+    /* grid-template-columns: repeat (auto-fit, minmax (400px, 1fr)); */
+    /* grid-gap: 20px;  pastidan bo'shliq ajratish */
+    /* grid-template-areas: 'a a' ; */
+    /* grid-template-columns: 'a a a'; */
+    /* grid-template-rows: 'a a a'; */
+    background-color: #282A35;
+    width: 100%;
+    height: 330px;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.pink-con {
+    display: flex;
+    border-radius: 5px;
+    background-color: #FFC0C7;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    margin-top: 80px;
+    margin-right: 65px;
+    margin-left: 200px;
+    flex: 1;
+    cursor: pointer;
+
+}
+
+.yellow-con {
+    display: flex;
+    border-radius: 5px;
+    background-color: #FFF4A3;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    margin-top: 80px;
+    margin-left: 65px;
+    margin-right: 200px;
+    flex: 1;
+    cursor: pointer;
+
+}
+
+.some-con {
+    display: grid;
+    text-align: center;
+    /* grid gap: 60px; */
+   
+    grid-template-areas: 'a a a a';
+    background-color: #282A35;
+    width: 100%;
+    height: 1000px;
+    justify-content: space-evenly;
+
+
+
+}
+
+.lilwhite-con {
+
+    background-color: #F3ECEA;
+    display: grid;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 5px;
+  
+    height: 100px;
+    width: 250px;
+
+}
+
+.lilgray-con {
+
+    background-color: #D9EEE1;
+    display: grid;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 5px;
+  
+    height: 100px;
+    width: 250px;
+
+}
+
+.lilblue-con {
+    background-color: #96D4D4;
+    display: grid;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 5px;
+
+    height: 100px;
+    width: 250px;
+
+}
+
+.lilpink-con {
+    background-color: #FFC0C7;
+    display: grid;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 5px;
+
+    height: 100px;
+    width: 250px;
+
+}
+
+.lilyellow-con {
+    background-color: #FFF4A3;
+    display: grid;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 5px;
+   
+    height: 100px;
+    width: 250px;
+}
+
+.
